@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 })
 
 app.post('/', (req, res) => {
-    res.send(req.body);
+    res.send(req.body.movie_name);
 });
 
 
