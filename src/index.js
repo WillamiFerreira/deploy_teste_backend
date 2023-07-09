@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'https://shiny-cupcake-cc0748.netlify.app/'
+    origin: 'https://shiny-cupcake-cc0748.netlify.app'
 }))
 
 app.get("/", (req, res) => {
